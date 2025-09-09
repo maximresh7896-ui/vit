@@ -3,6 +3,8 @@ print("world")
 
 import pyautogui
 import time
+import random
+
 time.sleep(5)
 for x in range(0,50,10):
     pyautogui.dragTo(896, 712+x)
